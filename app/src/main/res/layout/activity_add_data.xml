@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Add_Data_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".Add_Data_Activity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar Clientes"
+            android:textSize="28sp"
+            android:layout_marginBottom="20dp" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="CPF:"
+            android:id="@+id/edtCpf_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="number" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Nome:"
+            android:id="@+id/edtNome_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Código do Cliente:"
+            android:id="@+id/edtCod_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="number" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Telefone:"
+            android:id="@+id/edtTel_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="number" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="CEP:"
+            android:id="@+id/edtCep_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="number" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Logradouro:"
+            android:id="@+id/edtLogra_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Número do Logradouro:"
+            android:id="@+id/edtNum_logra_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Complemento:"
+            android:id="@+id/edtCompl_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Bairro:"
+            android:id="@+id/edtBairro_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Cidade:"
+            android:id="@+id/edtCidade_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Estado:"
+            android:id="@+id/edtUf_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="RG:"
+            android:id="@+id/edtRg_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Estado do RG:"
+            android:id="@+id/edtEst_rg_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Nome da Mãe:"
+            android:id="@+id/edtNome_mae_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Data de Nascimento:"
+            android:id="@+id/edtData_nasc_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="date" />
+
+        <Button
+            android:id="@+id/btnInsert"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="INSERT Data"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>

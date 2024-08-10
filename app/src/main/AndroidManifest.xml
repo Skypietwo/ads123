@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjetoFinal"
+        tools:targetApi="31">
+        <activity
+            android:name=".DetalhadoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Pro_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Funcionario"
+            android:exported="false" />
+        <activity
+            android:name=".Edicao_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Edite_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Edit_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".DetalheActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Prof_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Data_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

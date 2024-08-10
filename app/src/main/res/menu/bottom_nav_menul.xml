@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homel"
+        android:icon="@drawable/baseline_home_work_24"
+        android:title="Homel" />
+
+    <item
+        android:id="@+id/processos"
+        android:icon="@drawable/baseline_settings_suggest_24"
+        android:title="Processos" />
+</menu>

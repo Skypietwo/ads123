@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalheActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="CPF:"
+            android:id="@+id/pcpf_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Nome:"
+            android:id="@+id/pcod_espec"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/pcod_prof"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Codigo"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="telefone:"
+            android:id="@+id/pcod_proced"
+            android:layout_marginTop="10dp"
+            android:inputType="phone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="CEP:"
+            android:id="@+id/pdata_proced"
+            android:layout_marginTop="10dp"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="logradouro:"
+            android:id="@+id/pdescr_proced"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Complemento:"
+            android:id="@+id/plink_proced"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Bairro:"
+            android:id="@+id/paut_vis_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>

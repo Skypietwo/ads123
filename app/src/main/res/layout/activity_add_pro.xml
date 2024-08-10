@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Add_Prof_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".Add_Prof_Activity">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cadastrar Processos"
+                android:textSize="28sp"
+                android:layout_marginBottom="20dp" />
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:hint="CPF"
+                android:id="@+id/etCpf_cli"
+                android:layout_marginTop="10dp"
+                android:inputType="number" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:hint="Codigo de Especialidade"
+                android:id="@+id/etCod_espec"
+                android:layout_marginTop="10dp"
+                android:inputType="text" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:hint="Professional Code"
+                android:id="@+id/etCod_prof"
+                android:layout_marginTop="10dp"
+                android:inputType="text" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:hint="codigo de procedimento"
+                android:id="@+id/etCod_proced"
+                android:layout_marginTop="10dp"
+                android:inputType="text" />
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:hint="Descrição de procedimento"
+                android:id="@+id/etDescr_proced"
+                android:layout_marginTop="36dp"
+                android:inputType="text" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:hint="Link de procedimento"
+                android:id="@+id/etLink_proced"
+                android:layout_marginTop="10dp"
+                android:inputType="textUri" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:hint="Status de Autorização"
+                android:id="@+id/etAut_vis_cli"
+                android:layout_marginTop="10dp"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/btInsert"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:text="Insert Data"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Edicao_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".Edicao_Activity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar Processos"
+            android:textSize="28sp"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CPF"
+            android:id="@+id/ed_Cpf_cli"
+            android:textSize="20sp"
+            android:enabled="true"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Specialty Code"
+            android:id="@+id/ed_Cod_espec"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Professional Code"
+            android:id="@+id/ed_Cod_prof"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Procedure Code"
+            android:id="@+id/ed_Cod_proced"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Date of Procedure"
+            android:id="@+id/ed_Data_proced"
+            android:layout_marginTop="10dp"
+            android:inputType="date" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Procedure Description"
+            android:id="@+id/ed_Descr_proced"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Procedure Link"
+            android:id="@+id/ed_Link_proced"
+            android:layout_marginTop="10dp"
+            android:inputType="textUri" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Authorization Status"
+            android:id="@+id/ed_Aut_vis_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Update"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:onClick="btn_updateData"
+            />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Edit_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".Edit_Activity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastrar Paciente"
+            android:textSize="28sp"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID"
+            android:id="@+id/e_Id"
+            android:textSize="20sp"
+            android:enabled="false"
+            />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="CPF:"
+            android:id="@+id/e_Cpf_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="number" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Nome:"
+            android:id="@+id/e_Nome_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Código:"
+            android:id="@+id/e_Cod_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="number" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Telefone:"
+            android:id="@+id/e_Tel_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="phone" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="CEP:"
+            android:id="@+id/e_Cep_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="number" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Logradouro:"
+            android:id="@+id/e_Logra_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Número do Logradouro:"
+            android:id="@+id/e_Num_logra_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Complemento:"
+            android:id="@+id/e_Compl_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Bairro:"
+            android:id="@+id/e_Bairro_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Cidade:"
+            android:id="@+id/e_Cidade_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Estado:"
+            android:id="@+id/e_Uf_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="RG:"
+            android:id="@+id/e_Rg_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Estado do RG:"
+            android:id="@+id/e_Est_rg_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Nome da Mãe:"
+            android:id="@+id/e_Nome_mae_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Data de Nascimento:"
+            android:id="@+id/e_Data_nasc_cli"
+            android:layout_marginTop="10dp"
+            android:inputType="date" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Update"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:onClick="btn_updateData"
+            />
+
+    </LinearLayout>
+</ScrollView>
